@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    background-color: #121212; 
+    color: #ffffff;
+}
+header {
+    background-color: #4a148c;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+.kategori-alani {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.kart {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    width: 40%;
+}
+.buton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #7b1fa2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.buton:hover {
+    background-color: #9c27b0;
+}
+.iletisim-formu {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    gap: 15px;
+}
+.iletisim-formu input, .iletisim-formu textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #1e1e1e;
+    color: white;
+}
+.secenekler {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
